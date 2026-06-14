@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===== SEO ===== -->
+<title>Penmorva | Luxury Coastal Holiday Home, North Cornwall — Sleeps 6</title>
+<meta name="description" content="Penmorva is a restored clifftop holiday home on the North Cornwall coast. Sleeps 6, three bedrooms, sea views, dog-friendly. Five minutes from the sand. Book direct.">
+<meta name="keywords" content="north cornwall holiday cottage, luxury holiday let cornwall, dog friendly coastal cottage, sleeps 6 cornwall, self catering cornwall, book direct holiday home">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.penmorva.co.uk/">
+
+<!-- ===== Open Graph ===== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Penmorva">
+<meta property="og:title" content="Penmorva | Luxury Coastal Holiday Home, North Cornwall">
+<meta property="og:description" content="A restored clifftop house above the Atlantic — sleeping six, just five minutes from the sand. Book direct.">
+<meta property="og:url" content="https://www.penmorva.co.uk/">
+<meta property="og:image" content="https://picsum.photos/seed/penmorva-og/1200/630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Penmorva | Luxury Coastal Holiday Home, North Cornwall">
+<meta name="twitter:description" content="A restored clifftop house above the Atlantic — sleeping six, just five minutes from the sand.">
+<meta name="twitter:image" content="https://picsum.photos/seed/penmorva-og/1200/630">
+
+<!-- ===== Structured data (helps Google) ===== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LodgingBusiness",
+  "name": "Penmorva",
+  "description": "Luxury self-catering coastal holiday home in North Cornwall, sleeping up to six guests.",
+  "address": { "@type": "PostalAddress", "addressRegion": "Cornwall", "addressCountry": "GB" },
+  "amenityFeature": ["Sea views", "Wood-burning stove", "Fast Wi-Fi", "Enclosed garden", "Dog-friendly"],
+  "petsAllowed": true,
+  "numberOfRooms": 3
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  /* ===== Tokens ===== */
+  :root{
+    --ink:#15302C;
+    --ink-2:#0C211E;
+    --chalk:#F7F4ED;
+    --paper:#FCFAF5;
+    --sand:#E7DCC8;
+    --brass:#B5894E;
+    --brass-soft:#C9A878;
+    --sea:#6E847A;
+    --line:rgba(21,48,44,.14);
+    --shadow:0 24px 60px -28px rgba(12,33,30,.45);
+    --display:"Fraunces",Georgia,serif;
+    --body:"DM Sans",system-ui,sans-serif;
+    --mono:"DM Mono",ui-monospace,monospace;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--body);
+    color:var(--ink);
+    background:var(--chalk);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+
+  .wrap{max-width:1180px;margin-inline:auto;padding-inline:24px}
+
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:.72rem;
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    color:var(--brass);
+  }
+
+  h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.05;letter-spacing:-.01em}
+
+  /* ===== Buttons ===== */
+  .btn{
+    display:inline-flex;align-items:center;gap:.55em;
+    font-family:var(--body);font-weight:600;font-size:.95rem;
+    padding:.95em 1.6em;border-radius:999px;cursor:pointer;border:1px solid transparent;
+    transition:transform .25s ease,background .25s ease,color .25s ease,box-shadow .25s ease;
+  }
+  .btn--solid{background:var(--ink);color:var(--chalk)}
+  .btn--solid:hover{background:var(--brass);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(181,137,78,.7)}
+  .btn--ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+  .btn--ghost:hover{border-color:var(--ink);transform:translateY(-2px)}
+  .btn--light{background:var(--chalk);color:var(--ink)}
+  .btn--light:hover{background:#fff;transform:translateY(-2px)}
+  :focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:4px}
+
+  /* ===== Header ===== */
+  header{
+    position:fixed;inset:0 0 auto 0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:18px clamp(24px,5vw,56px);
+    transition:background .35s ease,box-shadow .35s ease,padding .35s ease;
+  }
+  header.scrolled{background:rgba(247,244,237,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line);padding-block:12px}
+  .brand{font-family:var(--display);font-size:1.45rem;letter-spacing:.02em;color:#fff;transition:color .35s ease}
+  header.scrolled .brand{color:var(--ink)}
+  nav{display:flex;align-items:center;gap:34px}
+  .nav-links{display:flex;gap:30px}
+  .nav-links a{font-size:.9rem;font-weight:500;color:rgba(255,255,255,.86);transition:color .25s}
+  .nav-links a:hover{color:#fff}
+  header.scrolled .nav-links a{color:var(--ink)}
+  header.scrolled .nav-links a:hover{color:var(--brass)}
+  .nav-cta{border:1px solid rgba(255,255,255,.5);color:#fff;padding:.6em 1.2em;border-radius:999px;font-size:.88rem;font-weight:600;transition:.25s}
+  .nav-cta:hover{background:#fff;color:var(--ink)}
+  header.scrolled .nav-cta{border-color:var(--ink);color:var(--ink)}
+  header.scrolled .nav-cta:hover{background:var(--ink);color:var(--chalk)}
+  .menu-btn{display:none;background:none;border:0;cursor:pointer;flex-direction:column;gap:5px;padding:8px}
+  .menu-btn span{width:24px;height:2px;background:#fff;transition:.3s}
+  header.scrolled .menu-btn span{background:var(--ink)}
+
+  /* ===== Hero ===== */
+  .hero{
+    position:relative;min-height:100svh;display:flex;align-items:flex-end;
+    color:var(--chalk);overflow:hidden;
+    background:
+      radial-gradient(120% 90% at 78% 18%, rgba(181,137,78,.32), transparent 55%),
+      linear-gradient(165deg,#1c4039 0%, #15302C 45%, #0C211E 100%);
+  }
+  .hero::after{
+    content:"";position:absolute;inset:0;opacity:.5;mix-blend-mode:overlay;pointer-events:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  }
+  .hero-img{
+    position:absolute;inset:0;
+    background:url("https://picsum.photos/seed/penmorva-cliff/1900/1300") center/cover no-repeat;
+    opacity:.34;filter:saturate(.85);
+  }
+  .hero-inner{position:relative;z-index:2;width:100%;padding-block:0 clamp(48px,9vh,96px);padding-top:120px}
+  .hero .eyebrow{color:var(--brass-soft)}
+  .hero h1{
+    font-size:clamp(3rem,9.5vw,7.4rem);font-weight:300;margin:.18em 0 .35em;
+    letter-spacing:-.02em;
+  }
+  .hero h1 em{font-style:italic;color:var(--brass-soft)}
+  .hero-lead{max-width:33ch;font-size:clamp(1.05rem,2.2vw,1.3rem);color:rgba(247,244,237,.9);font-weight:400}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+
+  /* ===== Stat ribbon ===== */
+  .ribbon{background:var(--ink-2);color:var(--chalk)}
+  .ribbon ul{
+    list-style:none;display:flex;flex-wrap:wrap;justify-content:center;
+    gap:clamp(20px,5vw,64px);padding:26px 24px;
+  }
+  .ribbon li{display:flex;align-items:center;gap:12px;font-size:.92rem;letter-spacing:.02em}
+  .ribbon .num{font-family:var(--display);font-size:1.7rem;color:var(--brass-soft);line-height:1}
+  .ribbon span.lbl{color:rgba(247,244,237,.7);font-size:.82rem;text-transform:uppercase;letter-spacing:.14em}
+
+  /* ===== Sections ===== */
+  section{padding-block:clamp(72px,11vw,128px)}
+  .section-head{max-width:62ch}
+  .section-head h2{font-size:clamp(2rem,5vw,3.5rem);margin:.3em 0 .55em}
+  .section-head p{color:var(--sea);font-size:1.08rem;max-width:54ch}
+
+  /* Welcome / intro */
+  .welcome{background:var(--paper)}
+  .welcome-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(36px,6vw,84px);align-items:center}
+  .welcome-copy p+p{margin-top:1.1em}
+  .welcome-copy p{color:#33453F}
+  .welcome-figure{position:relative}
+  .welcome-figure img{border-radius:6px;box-shadow:var(--shadow);aspect-ratio:4/5;object-fit:cover;width:100%}
+  .welcome-figure .tag{
+    position:absolute;left:-22px;bottom:30px;background:var(--brass);color:#fff;
+    padding:16px 22px;border-radius:4px;font-family:var(--display);font-size:1.05rem;max-width:200px;line-height:1.25;box-shadow:var(--shadow);
+  }
+
+  /* Gallery */
+  .gallery-grid{
+    display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:200px;gap:14px;margin-top:48px;
+  }
+  .g-item{position:relative;overflow:hidden;border-radius:5px;cursor:pointer}
+  .g-item img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+  .g-item:hover img{transform:scale(1.07)}
+  .g-item figcaption{
+    position:absolute;inset:auto 0 0 0;padding:30px 18px 14px;color:#fff;font-size:.9rem;font-weight:500;
+    background:linear-gradient(transparent,rgba(12,33,30,.78));opacity:0;transform:translateY(8px);transition:.4s;
+  }
+  .g-item:hover figcaption{opacity:1;transform:translateY(0)}
+  .g-tall{grid-row:span 2}
+  .g-wide{grid-column:span 2}
+
+  /* The House / amenities */
+  .house{background:var(--ink);color:var(--chalk)}
+  .house .section-head h2{color:var(--chalk)}
+  .house .section-head p{color:rgba(247,244,237,.72)}
+  .house .eyebrow{color:var(--brass-soft)}
+  .amenities{
+    list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:54px;
+    border:1px solid rgba(247,244,237,.16);border-radius:8px;overflow:hidden;background:rgba(247,244,237,.16);
+  }
+  .amenities li{display:flex;align-items:flex-start;gap:16px;padding:28px;background:var(--ink)}
+  .amenities svg{flex:none;width:26px;height:26px;stroke:var(--brass-soft);stroke-width:1.4;fill:none}
+  .amenities h3{font-family:var(--body);font-size:1rem;font-weight:600;margin-bottom:3px}
+  .amenities p{font-size:.88rem;color:rgba(247,244,237,.66);line-height:1.5}
+
+  /* Local area */
+  .area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:52px}
+  .area-card{background:var(--paper);border:1px solid var(--line);border-radius:8px;overflow:hidden;transition:transform .35s ease,box-shadow .35s ease}
+  .area-card:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+  .area-card img{aspect-ratio:16/11;object-fit:cover;width:100%}
+  .area-card .body{padding:24px 24px 28px}
+  .area-card .dist{font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}
+  .area-card h3{font-size:1.35rem;margin:.4em 0 .45em}
+  .area-card p{color:var(--sea);font-size:.95rem}
+
+  /* Enquiry */
+  .enquire{background:var(--sand)}
+  .enquire-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(40px,7vw,90px);align-items:start}
+  .enquire-copy h2{font-size:clamp(2rem,5vw,3.4rem);margin:.3em 0 .5em}
+  .enquire-copy p{color:#3a4a45;max-width:40ch}
+  .contact-line{display:flex;align-items:center;gap:12px;margin-top:22px;font-weight:500}
+  .contact-line svg{width:20px;height:20px;stroke:var(--brass);stroke-width:1.5;fill:none}
+  form{background:var(--paper);padding:clamp(28px,4vw,42px);border-radius:10px;box-shadow:var(--shadow)}
+  .field{margin-bottom:18px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  label{display:block;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--sea);margin-bottom:7px}
+  input,select,textarea{
+    width:100%;font-family:var(--body);font-size:1rem;color:var(--ink);
+    padding:13px 15px;border:1px solid var(--line);border-radius:7px;background:#fff;transition:border .2s,box-shadow .2s;
+  }
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--brass);box-shadow:0 0 0 3px rgba(181,137,78,.18)}
+  textarea{resize:vertical;min-height:110px}
+  form .btn{width:100%;justify-content:center;margin-top:6px}
+  .form-note{font-size:.8rem;color:var(--sea);text-align:center;margin-top:14px}
+  .form-ok{display:none;background:var(--ink);color:var(--chalk);padding:30px;border-radius:10px;text-align:center}
+  .form-ok h3{color:var(--brass-soft);font-size:1.6rem;margin-bottom:.4em}
+
+  /* Footer */
+  footer{background:var(--ink-2);color:rgba(247,244,237,.72);padding-block:64px 30px}
+  .foot-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:36px;padding-bottom:40px;border-bottom:1px solid rgba(247,244,237,.13)}
+  .foot-brand{font-family:var(--display);font-size:1.8rem;color:var(--chalk)}
+  .foot-brand+p{margin-top:10px;max-width:34ch;font-size:.92rem}
+  .foot-cols{display:flex;gap:clamp(40px,7vw,90px)}
+  .foot-cols h4{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-soft);margin-bottom:14px}
+  .foot-cols a{display:block;font-size:.92rem;margin-bottom:9px;transition:color .2s}
+  .foot-cols a:hover{color:var(--chalk)}
+  .foot-bottom{padding-top:26px;font-size:.82rem;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+  /* Reveal animation */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ===== Responsive ===== */
+  @media(max-width:900px){
+    .nav-links,.nav-cta{display:none}
+    .menu-btn{display:flex}
+    .welcome-grid,.enquire-grid{grid-template-columns:1fr;gap:44px}
+    .welcome-figure{order:-1}
+    .amenities{grid-template-columns:repeat(2,1fr)}
+    .area-grid{grid-template-columns:1fr 1fr}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:170px}
+  }
+  @media(max-width:560px){
+    .amenities,.area-grid,.gallery-grid{grid-template-columns:1fr}
+    .gallery-grid{grid-auto-rows:230px}
+    .g-wide{grid-column:auto}
+    .g-tall{grid-row:auto}
+    .row2{grid-template-columns:1fr}
+    .welcome-figure .tag{left:0}
+    .foot-top{flex-direction:column}
+  }
+  @media(prefers-reduced-motion:reduce){
+    *{animation:none!important;scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    .g-item:hover img{transform:none}
+  }
+
+  /* Mobile menu panel */
+  .mobile-menu{position:fixed;inset:0;z-index:60;background:var(--ink);display:flex;flex-direction:column;
+    align-items:center;justify-content:center;gap:30px;transform:translateX(100%);transition:transform .4s ease}
+  .mobile-menu.open{transform:none}
+  .mobile-menu a{color:var(--chalk);font-family:var(--display);font-size:2rem}
+  .mobile-menu .close{position:absolute;top:24px;right:24px;background:none;border:0;color:var(--chalk);font-size:2rem;cursor:pointer}
+</style>
+</head>
+<body>
+
+<header id="header">
+  <a href="#top" class="brand">Penmorva</a>
+  <nav>
+    <div class="nav-links">
+      <a href="#welcome">The House</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#area">The Area</a>
+      <a href="#enquire">Enquire</a>
+    </div>
+    <a href="#enquire" class="nav-cta">Check availability</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="menuClose" aria-label="Close menu">&times;</button>
+  <a href="#welcome">The House</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#area">The Area</a>
+  <a href="#enquire">Enquire</a>
+</div>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="top">
+  <div class="hero-img"></div>
+  <div class="hero-inner wrap">
+    <p class="eyebrow">North Cornwall &middot; Self-catering</p>
+    <h1>A clifftop house<br>above the <em>Atlantic</em></h1>
+    <p class="hero-lead">A lovingly restored coastal home sleeping six — just five minutes from the sand.</p>
+    <div class="hero-actions">
+      <a href="#enquire" class="btn btn--light">Check availability</a>
+      <a href="#gallery" class="btn btn--ghost" style="color:#fff;border-color:rgba(255,255,255,.5)">View the gallery</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Stat ribbon ===== -->
+<div class="ribbon">
+  <ul class="wrap">
+    <li><span class="num">6</span><span class="lbl">Guests</span></li>
+    <li><span class="num">3</span><span class="lbl">Bedrooms</span></li>
+    <li><span class="num">2</span><span class="lbl">Bathrooms</span></li>
+    <li><span class="num">5</span><span class="lbl">Min to beach</span></li>
+    <li><span class="num">&#9679;</span><span class="lbl">Dog-friendly</span></li>
+  </ul>
+</div>
+
+<!-- ===== Welcome ===== -->
+<section class="welcome" id="welcome">
+  <div class="wrap welcome-grid">
+    <div class="welcome-copy reveal">
+      <p class="eyebrow">Welcome to Penmorva</p>
+      <h2 style="font-size:clamp(2rem,5vw,3.4rem);margin:.3em 0 .6em">Where the day starts<br>with the sound of surf.</h2>
+      <p>Set high on the headland with uninterrupted views across the bay, Penmorva blends the calm of a country home with the wildness of the Cornish coast. Stone floors, a wood-burner, and big windows that frame the sea.</p>
+      <p>Wake to the light off the water, walk the coast path before breakfast, and come home to a kitchen made for long, slow dinners. It sleeps six in comfort, and the dog is welcome too.</p>
+      <a href="#enquire" class="btn btn--solid" style="margin-top:24px">Enquire about your stay</a>
+    </div>
+    <figure class="welcome-figure reveal">
+      <img src="https://picsum.photos/seed/penmorva-interior/900/1120" alt="The sitting room at Penmorva with sea views">
+      <div class="tag">Sea views from every main room</div>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">The Gallery</p>
+      <h2>A look inside &amp; out</h2>
+      <p>Every corner of the house, photographed in the Cornish light. Tap any image to explore.</p>
+    </div>
+    <div class="gallery-grid reveal">
+      <figure class="g-item g-tall"><img src="https://picsum.photos/seed/pen-g1/700/900" alt="Open-plan living and dining space"><figcaption>The open-plan living space</figcaption></figure>
+      <figure class="g-item g-wide"><img src="https://picsum.photos/seed/pen-g2/1000/500" alt="Kitchen with island and sea view"><figcaption>The kitchen &amp; island</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/seed/pen-g3/500/500" alt="Main bedroom"><figcaption>The main bedroom</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/seed/pen-g4/500/500" alt="Bathroom with freestanding bath"><figcaption>The family bathroom</figcaption></figure>
+      <figure class="g-item g-wide"><img src="https://picsum.photos/seed/pen-g5/1000/500" alt="The terrace and garden"><figcaption>The terrace &amp; garden</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/seed/pen-g6/500/500" alt="View along the coast path"><figcaption>The coast path</figcaption></figure>
+      <figure class="g-item g-tall"><img src="https://picsum.photos/seed/pen-g7/700/900" alt="Reading nook by the window"><figcaption>The window nook</figcaption></figure>
+      <figure class="g-item g-wide"><img src="https://picsum.photos/seed/pen-g8/1000/500" alt="The beach at sunset"><figcaption>Sunset over the bay</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== The House / Amenities ===== -->
+<section class="house">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">The House</p>
+      <h2>Everything you need,<br>nothing you don't.</h2>
+      <p>Thoughtfully equipped for families, couples and four-legged friends — so you can simply arrive and unwind.</p>
+    </div>
+    <ul class="amenities reveal">
+      <li>
+        <svg viewBox="0 0 24 24"><path d="M3 9.5 12 3l9 6.5V21H3z"/><path d="M9 21v-6h6v6"/></svg>
+        <div><h3>Three bedrooms</h3><p>Sleeps six across a king, a double and twins.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><rect x="3" y="9" width="18" height="11" rx="1.5"/><path d="M7 9V6a5 5 0 0 1 10 0v3M12 13v3"/></svg>
+        <div><h3>Wood-burning stove</h3><p>Logs supplied — cosy evenings, sea-salt air.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><path d="M5 12.5a10 10 0 0 1 14 0M8 15.5a6 6 0 0 1 8 0"/><circle cx="12" cy="18.5" r="1"/></svg>
+        <div><h3>Fast Wi-Fi</h3><p>Full-fibre broadband — easy to work from here.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><path d="M12 21c4-3 7-6 7-10a7 7 0 0 0-14 0c0 4 3 7 7 10Z"/><path d="M12 11v6M9 14h6"/></svg>
+        <div><h3>Enclosed garden</h3><p>Safe for children and dogs, with a terrace.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><path d="M5 17h14l-2-7H7zM7 17v2M17 17v2M9 10V8a3 3 0 0 1 6 0v2"/></svg>
+        <div><h3>Off-road parking</h3><p>Private driveway for up to two cars.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <div><h3>Self check-in</h3><p>Arrive on your schedule with a keysafe.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="13" r="5"/><path d="M9 9v4l2.5 1.5M16 5l3 3M19 5l-3 3"/></svg>
+        <div><h3>Dog-friendly</h3><p>Two well-behaved dogs welcome, free of charge.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>
+        <div><h3>Washer &amp; dryer</h3><p>Plus linen and towels included throughout.</p></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24"><path d="M4 7h16v10H4z"/><path d="M8 21h8M12 17v4M9 11l2 2 4-4"/></svg>
+        <div><h3>Welcome hamper</h3><p>Local treats waiting on arrival, on us.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Local area ===== -->
+<section id="area">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Around Penmorva</p>
+      <h2>The coast on your doorstep</h2>
+      <p>Beaches, headland walks and harbour pubs — all within easy reach of the house.</p>
+    </div>
+    <div class="area-grid reveal">
+      <article class="area-card">
+        <img src="https://picsum.photos/seed/pen-beach/700/480" alt="The beach near Penmorva">
+        <div class="body"><span class="dist">5 minutes on foot</span><h3>The beach</h3><p>A sheltered cove of golden sand, perfect for swimming, rockpools and rolling Atlantic surf.</p></div>
+      </article>
+      <article class="area-card">
+        <img src="https://picsum.photos/seed/pen-path/700/480" alt="The South West Coast Path">
+        <div class="body"><span class="dist">From the door</span><h3>The coast path</h3><p>Step straight onto the South West Coast Path for headland walks in either direction.</p></div>
+      </article>
+      <article class="area-card">
+        <img src="https://picsum.photos/seed/pen-pub/700/480" alt="A harbourside pub">
+        <div class="body"><span class="dist">10 minute walk</span><h3>The village</h3><p>A harbour pub, a farm shop and a seafood kitchen — everything within a gentle stroll.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Enquire ===== -->
+<section class="enquire" id="enquire">
+  <div class="wrap enquire-grid">
+    <div class="enquire-copy reveal">
+      <p class="eyebrow">Book direct</p>
+      <h2>Enquire about<br>your stay</h2>
+      <p>Tell us your dates and we'll come back to you within 24 hours with availability and our best direct rate — no booking fees.</p>
+      <div class="contact-line"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> stay@penmorva.co.uk</div>
+      <div class="contact-line"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg> +44 (0)1208 000000</div>
+    </div>
+
+    <form id="enquiryForm" novalidate>
+      <div class="row2">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="arrive">Arrival</label><input id="arrive" name="arrive" type="date"></div>
+        <div class="field"><label for="depart">Departure</label><input id="depart" name="depart" type="date"></div>
+      </div>
+      <div class="field">
+        <label for="guests">Guests</label>
+        <select id="guests" name="guests">
+          <option>1–2 guests</option><option>3–4 guests</option><option>5–6 guests</option>
+        </select>
+      </div>
+      <div class="field"><label for="msg">Message</label><textarea id="msg" name="msg" placeholder="Anything we should know — dogs, flexible dates, a special occasion?"></textarea></div>
+      <button type="submit" class="btn btn--solid">Send enquiry</button>
+      <p class="form-note">We'll reply within 24 hours. We never share your details.</p>
+    </form>
+
+    <div class="form-ok" id="formOk">
+      <h3>Thank you</h3>
+      <p>Your enquiry is on its way. We'll be in touch within 24 hours with availability and rates for Penmorva.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">Penmorva</div>
+        <p>A coastal holiday home on the North Cornwall headland. Sleeps six, book direct.</p>
+      </div>
+      <div class="foot-cols">
+        <div>
+          <h4>Explore</h4>
+          <a href="#welcome">The House</a><a href="#gallery">Gallery</a><a href="#area">The Area</a><a href="#enquire">Enquire</a>
+        </div>
+        <div>
+          <h4>Stay in touch</h4>
+          <a href="mailto:stay@penmorva.co.uk">stay@penmorva.co.uk</a><a href="#">Instagram</a><a href="#">Guest guide</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Penmorva. All rights reserved.</span>
+      <span>Built with care &middot; Book direct &amp; save</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Header background on scroll
+  const header=document.getElementById('header');
+  const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>40);
+  onScroll();addEventListener('scroll',onScroll,{passive:true});
+
+  // Mobile menu
+  const mm=document.getElementById('mobileMenu');
+  document.getElementById('menuBtn').onclick=()=>mm.classList.add('open');
+  document.getElementById('menuClose').onclick=()=>mm.classList.remove('open');
+  mm.querySelectorAll('a').forEach(a=>a.onclick=()=>mm.classList.remove('open'));
+
+  // Scroll reveal
+  const io=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // Form (demo only — no backend)
+  document.getElementById('enquiryForm').addEventListener('submit',function(ev){
+    ev.preventDefault();
+    if(!this.name.value||!this.email.value){this.reportValidity?this.reportValidity():alert('Please add your name and email.');return;}
+    this.style.display='none';
+    document.getElementById('formOk').style.display='block';
+  });
+</script>
+</body>
+</html>
